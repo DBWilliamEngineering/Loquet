@@ -1,4 +1,5 @@
-# Loquet (Low-Ket) - LINQ ORM parQuet Library (really its named after my fiancé, Lauren)
+# Loquet (Low-Ket) - LINQ ORM parQuet Library 
+>*really its named after my fiancé, Lauren*
 
 **Entity-oriented data access for Apache Parquet and .NET.**
 

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Loquet.Core/Loquet.Core.csproj" />
+  <Project Path="Loquet.Parquet/Loquet.Parquet.csproj" Id="d9ac806c-b7e6-4920-990b-01399021e1bf" />
+</Solution>

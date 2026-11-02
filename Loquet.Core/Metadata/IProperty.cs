@@ -1,11 +1,12 @@
-﻿using Loquet.Core.Metadata.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Loquet.Core.Metadata.Abstractions;
+using Loquet.Core.Metadata.Abstractions.ReadOnly;
 
-namespace Loquet.Core.Metadata.Property
+namespace Loquet.Core.Metadata
 {
-    public interface IProperty : IReadOnlyPropertyBase, IPropertyBase
+    /// <summary>
+    /// Runtime view of Property metadata. Implementations must publish a stable, read-only graph.
+    /// </summary>
+    public interface IProperty : IReadOnlyProperty, IPropertyBase
     {
     }
 }

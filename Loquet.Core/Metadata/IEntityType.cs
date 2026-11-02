@@ -1,10 +1,11 @@
-﻿using Loquet.Core.Metadata.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Loquet.Core.Metadata.Abstractions;
+using Loquet.Core.Metadata.Abstractions.ReadOnly;
 
 namespace Loquet.Core.Metadata
 {
+    /// <summary>
+    /// Runtime view of EntityType metadata. Implementations must publish a stable, read-only graph.
+    /// </summary>
     public interface IEntityType : IReadOnlyEntityType, ITypeBase
     {
     }
